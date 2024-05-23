@@ -1,0 +1,19 @@
+.container {
+  @apply flex
+  w-full
+  h-full
+  bg-slate-200
+  p-5
+  border-2
+  rounded-md
+    border-gray-200;
+
+  margin: 0px auto;
+  max-width: 800px;
+
+  & > p {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 30px;
+  }
+}

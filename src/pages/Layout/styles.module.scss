@@ -1,0 +1,42 @@
+.container {
+  @apply flex
+  p-6
+  min-h-screen
+  flex-col
+  gap-5;
+
+  & h1 {
+    @apply text-white
+    text-4xl
+    w-max;
+    margin: 0px auto;
+    margin-bottom: 20px;
+  }
+}
+
+.header {
+  & > ul {
+    @apply bg-gray-400
+    flex-wrap
+    rounded-md
+    px-5
+    border-2
+    border-gray-200
+    justify-center
+    py-2
+    flex
+    gap-5;
+
+    & button {
+      @apply flex
+    border-2
+    rounded-md
+    px-5
+    py-1
+    flex-col
+    justify-center;
+
+      font-size: 20px;
+    }
+  }
+}

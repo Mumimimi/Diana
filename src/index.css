@@ -1,0 +1,70 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*,
+*::before,
+*::after {
+  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+#root {
+  box-sizing: border-box;
+
+  height: 100%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(
+    90deg,
+    rgba(9, 30, 50, 1) 0%,
+    rgba(17, 48, 65, 1) 25%,
+    rgba(18, 62, 84, 1) 50%,
+    rgba(17, 48, 65, 1) 75%,
+    rgba(9, 30, 50, 1) 100%
+  );
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+html {
+  height: full;
+}
+
+body {
+  height: 100%;
+}
