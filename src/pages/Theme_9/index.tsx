@@ -6,7 +6,7 @@ type ContactT = {
   number: string
 }
 
-const arrayContacts = [
+const contacts: ContactT[] = [
   { name: 'Іван Іванович', number: '+380971234567' },
   { name: 'Марія Петрівна', number: '+380991112233' },
   { name: 'John Smith', number: '+14155501234' },
@@ -30,7 +30,6 @@ const arrayContacts = [
 ]
 
 const Theme_9 = () => {
-  const [contacts, setContacts] = useState<ContactT[]>(arrayContacts)
   const [value, setValue] = useState('')
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
